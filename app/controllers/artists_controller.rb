@@ -4,8 +4,7 @@ class ArtistsController < ApplicationController
     @artists = Artist.all
   end
     
-  def new 
-    @artist = Artist.new
+  def new
   end 
   
   def show 
